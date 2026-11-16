@@ -1,0 +1,3074 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Director Water Ops",
+      "email": "admin@paanilink.pk",
+      "password": "Admin@123",
+      "role": "administrator",
+      "phone": "03001230001",
+      "cnic": "42101-1111111-1",
+      "status": "active",
+      "zoneId": null,
+      "hydrantId": null,
+      "customerId": null,
+      "driverId": null,
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Saima Zahid",
+      "email": "officer.gulshan@paanilink.pk",
+      "password": "Officer@123",
+      "role": "zone_officer",
+      "phone": "03001230002",
+      "cnic": "42101-2222222-2",
+      "status": "active",
+      "zoneId": 1,
+      "hydrantId": null,
+      "customerId": null,
+      "driverId": null,
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "Rashid Kamal",
+      "email": "officer.nazimabad@paanilink.pk",
+      "password": "Officer@123",
+      "role": "zone_officer",
+      "phone": "03001230003",
+      "cnic": "42101-3333333-3",
+      "status": "active",
+      "zoneId": 2,
+      "hydrantId": null,
+      "customerId": null,
+      "driverId": null,
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "name": "Imtiaz Hydrant",
+      "email": "operator.h1@paanilink.pk",
+      "password": "Operator@123",
+      "role": "hydrant_operator",
+      "phone": "03001230004",
+      "cnic": "42101-4444444-4",
+      "status": "active",
+      "zoneId": 1,
+      "hydrantId": 1,
+      "customerId": null,
+      "driverId": null,
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "name": "Kamran Depot",
+      "email": "operator.h2@paanilink.pk",
+      "password": "Operator@123",
+      "role": "hydrant_operator",
+      "phone": "03001230005",
+      "cnic": "42101-5555555-5",
+      "status": "active",
+      "zoneId": 1,
+      "hydrantId": 2,
+      "customerId": null,
+      "driverId": null,
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "name": "Ali Raza",
+      "email": "driver.ali@paanilink.pk",
+      "password": "Driver@123",
+      "role": "driver",
+      "phone": "03011000000",
+      "cnic": "42201-1000000-1",
+      "status": "active",
+      "zoneId": 1,
+      "hydrantId": 1,
+      "customerId": null,
+      "driverId": 1,
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 7,
+      "name": "Bilal Ahmed",
+      "email": "driver.bilal@paanilink.pk",
+      "password": "Driver@123",
+      "role": "driver",
+      "phone": "03011000001",
+      "cnic": "42201-1000001-2",
+      "status": "active",
+      "zoneId": 1,
+      "hydrantId": 1,
+      "customerId": null,
+      "driverId": 2,
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 8,
+      "name": "Shoaib Khan",
+      "email": "driver.shoaib@paanilink.pk",
+      "password": "Driver@123",
+      "role": "driver",
+      "phone": "03011000002",
+      "cnic": "42201-1000002-3",
+      "status": "active",
+      "zoneId": 1,
+      "hydrantId": 2,
+      "customerId": null,
+      "driverId": 3,
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 9,
+      "name": "Naveed Akhtar",
+      "email": "driver.naveed@paanilink.pk",
+      "password": "Driver@123",
+      "role": "driver",
+      "phone": "03011000003",
+      "cnic": "42201-1000003-4",
+      "status": "active",
+      "zoneId": 2,
+      "hydrantId": 3,
+      "customerId": null,
+      "driverId": 4,
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 10,
+      "name": "Farhan Malik",
+      "email": "driver.farhan@paanilink.pk",
+      "password": "Driver@123",
+      "role": "driver",
+      "phone": "03011000004",
+      "cnic": "42201-1000004-5",
+      "status": "active",
+      "zoneId": 3,
+      "hydrantId": 4,
+      "customerId": null,
+      "driverId": 5,
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 11,
+      "name": "Junaid Iqbal",
+      "email": "driver.junaid@paanilink.pk",
+      "password": "Driver@123",
+      "role": "driver",
+      "phone": "03011000005",
+      "cnic": "42201-1000005-6",
+      "status": "active",
+      "zoneId": 3,
+      "hydrantId": 4,
+      "customerId": null,
+      "driverId": 6,
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 12,
+      "name": "Waseem Abbas",
+      "email": "driver.waseem@paanilink.pk",
+      "password": "Driver@123",
+      "role": "driver",
+      "phone": "03011000006",
+      "cnic": "42201-1000006-7",
+      "status": "active",
+      "zoneId": 4,
+      "hydrantId": 5,
+      "customerId": null,
+      "driverId": 7,
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 13,
+      "name": "Shahid Mehmood",
+      "email": "driver.shahid@paanilink.pk",
+      "password": "Driver@123",
+      "role": "driver",
+      "phone": "03011000007",
+      "cnic": "42201-1000007-8",
+      "status": "active",
+      "zoneId": 5,
+      "hydrantId": 6,
+      "customerId": null,
+      "driverId": 8,
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 14,
+      "name": "Adnan Qureshi",
+      "email": "driver.adnan@paanilink.pk",
+      "password": "Driver@123",
+      "role": "driver",
+      "phone": "03011000008",
+      "cnic": "42201-1000008-9",
+      "status": "active",
+      "zoneId": 3,
+      "hydrantId": 8,
+      "customerId": null,
+      "driverId": 9,
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 15,
+      "name": "Rehan Siddiqui",
+      "email": "driver.rehan@paanilink.pk",
+      "password": "Driver@123",
+      "role": "driver",
+      "phone": "03011000009",
+      "cnic": "42201-1000009-10",
+      "status": "active",
+      "zoneId": 1,
+      "hydrantId": 1,
+      "customerId": null,
+      "driverId": 10,
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 16,
+      "name": "Ahmed Khan",
+      "email": "customer.ahmed@paanilink.pk",
+      "password": "Customer@123",
+      "role": "customer",
+      "phone": "03212000000",
+      "cnic": "42101-7654321-1",
+      "status": "active",
+      "zoneId": 1,
+      "hydrantId": null,
+      "customerId": 1,
+      "driverId": null,
+      "createdAt": "2026-02-01T00:00:00.000Z"
+    },
+    {
+      "id": 17,
+      "name": "Fatima Noor",
+      "email": "fatima.noor@mail.pk",
+      "password": "Customer@123",
+      "role": "customer",
+      "phone": "03212000001",
+      "cnic": "42102-7654322-2",
+      "status": "active",
+      "zoneId": 1,
+      "hydrantId": null,
+      "customerId": 2,
+      "driverId": null,
+      "createdAt": "2026-02-01T00:00:00.000Z"
+    },
+    {
+      "id": 18,
+      "name": "Usman Ali",
+      "email": "usman.ali@mail.pk",
+      "password": "Customer@123",
+      "role": "customer",
+      "phone": "03212000002",
+      "cnic": "42103-7654323-3",
+      "status": "active",
+      "zoneId": 2,
+      "hydrantId": null,
+      "customerId": 3,
+      "driverId": null,
+      "createdAt": "2026-02-01T00:00:00.000Z"
+    },
+    {
+      "id": 19,
+      "name": "Ayesha Siddiqui",
+      "email": "ayesha.siddiqui@mail.pk",
+      "password": "Customer@123",
+      "role": "customer",
+      "phone": "03212000003",
+      "cnic": "42104-7654324-4",
+      "status": "active",
+      "zoneId": 3,
+      "hydrantId": null,
+      "customerId": 4,
+      "driverId": null,
+      "createdAt": "2026-02-01T00:00:00.000Z"
+    },
+    {
+      "id": 20,
+      "name": "Imran Malik",
+      "email": "imran.malik@mail.pk",
+      "password": "Customer@123",
+      "role": "customer",
+      "phone": "03212000004",
+      "cnic": "42105-7654325-5",
+      "status": "active",
+      "zoneId": 4,
+      "hydrantId": null,
+      "customerId": 5,
+      "driverId": null,
+      "createdAt": "2026-02-01T00:00:00.000Z"
+    },
+    {
+      "id": 21,
+      "name": "Sana Qureshi",
+      "email": "sana.qureshi@mail.pk",
+      "password": "Customer@123",
+      "role": "customer",
+      "phone": "03212000005",
+      "cnic": "42106-7654326-6",
+      "status": "active",
+      "zoneId": 5,
+      "hydrantId": null,
+      "customerId": 6,
+      "driverId": null,
+      "createdAt": "2026-02-01T00:00:00.000Z"
+    },
+    {
+      "id": 22,
+      "name": "Hamza Sheikh",
+      "email": "hamza.sheikh@mail.pk",
+      "password": "Customer@123",
+      "role": "customer",
+      "phone": "03212000006",
+      "cnic": "42107-7654327-7",
+      "status": "active",
+      "zoneId": 1,
+      "hydrantId": null,
+      "customerId": 7,
+      "driverId": null,
+      "createdAt": "2026-02-01T00:00:00.000Z"
+    },
+    {
+      "id": 23,
+      "name": "Zainab Hussain",
+      "email": "zainab.hussain@mail.pk",
+      "password": "Customer@123",
+      "role": "customer",
+      "phone": "03212000007",
+      "cnic": "42108-7654328-8",
+      "status": "active",
+      "zoneId": 3,
+      "hydrantId": null,
+      "customerId": 8,
+      "driverId": null,
+      "createdAt": "2026-02-01T00:00:00.000Z"
+    },
+    {
+      "id": 24,
+      "name": "Tariq Mehmood",
+      "email": "tariq.mehmood@mail.pk",
+      "password": "Customer@123",
+      "role": "customer",
+      "phone": "03212000008",
+      "cnic": "42109-7654329-9",
+      "status": "active",
+      "zoneId": 4,
+      "hydrantId": null,
+      "customerId": 9,
+      "driverId": null,
+      "createdAt": "2026-02-01T00:00:00.000Z"
+    },
+    {
+      "id": 25,
+      "name": "Nadia Raza",
+      "email": "nadia.raza@mail.pk",
+      "password": "Customer@123",
+      "role": "customer",
+      "phone": "03212000009",
+      "cnic": "42110-7654330-1",
+      "status": "active",
+      "zoneId": 2,
+      "hydrantId": null,
+      "customerId": 10,
+      "driverId": null,
+      "createdAt": "2026-02-01T00:00:00.000Z"
+    },
+    {
+      "id": 26,
+      "name": "Omar Farooq",
+      "email": "omar.farooq@mail.pk",
+      "password": "Customer@123",
+      "role": "customer",
+      "phone": "03212000010",
+      "cnic": "42111-7654331-2",
+      "status": "active",
+      "zoneId": 5,
+      "hydrantId": null,
+      "customerId": 11,
+      "driverId": null,
+      "createdAt": "2026-02-01T00:00:00.000Z"
+    },
+    {
+      "id": 27,
+      "name": "Hina Shah",
+      "email": "hina.shah@mail.pk",
+      "password": "Customer@123",
+      "role": "customer",
+      "phone": "03212000011",
+      "cnic": "42112-7654332-3",
+      "status": "active",
+      "zoneId": 1,
+      "hydrantId": null,
+      "customerId": 12,
+      "driverId": null,
+      "createdAt": "2026-02-01T00:00:00.000Z"
+    },
+    {
+      "id": 28,
+      "name": "Kashif Iqbal",
+      "email": "kashif.iqbal@mail.pk",
+      "password": "Customer@123",
+      "role": "customer",
+      "phone": "03212000012",
+      "cnic": "42113-7654333-4",
+      "status": "active",
+      "zoneId": 3,
+      "hydrantId": null,
+      "customerId": 13,
+      "driverId": null,
+      "createdAt": "2026-02-01T00:00:00.000Z"
+    },
+    {
+      "id": 29,
+      "name": "Rabia Khan",
+      "email": "rabia.khan@mail.pk",
+      "password": "Customer@123",
+      "role": "customer",
+      "phone": "03212000013",
+      "cnic": "42114-7654334-5",
+      "status": "active",
+      "zoneId": 4,
+      "hydrantId": null,
+      "customerId": 14,
+      "driverId": null,
+      "createdAt": "2026-02-01T00:00:00.000Z"
+    },
+    {
+      "id": 30,
+      "name": "Asad Javed",
+      "email": "asad.javed@mail.pk",
+      "password": "Customer@123",
+      "role": "customer",
+      "phone": "03212000014",
+      "cnic": "42115-7654335-6",
+      "status": "active",
+      "zoneId": 2,
+      "hydrantId": null,
+      "customerId": 15,
+      "driverId": null,
+      "createdAt": "2026-02-01T00:00:00.000Z"
+    }
+  ],
+  "zones": [
+    {
+      "id": 1,
+      "name": "Gulshan-e-Iqbal",
+      "code": "GI",
+      "city": "Karachi",
+      "status": "active",
+      "officerUserId": 2
+    },
+    {
+      "id": 2,
+      "name": "North Nazimabad",
+      "code": "NN",
+      "city": "Karachi",
+      "status": "active",
+      "officerUserId": 3
+    },
+    {
+      "id": 3,
+      "name": "DHA",
+      "code": "DHA",
+      "city": "Karachi",
+      "status": "active",
+      "officerUserId": 2
+    },
+    {
+      "id": 4,
+      "name": "Malir",
+      "code": "ML",
+      "city": "Karachi",
+      "status": "active",
+      "officerUserId": 3
+    },
+    {
+      "id": 5,
+      "name": "Orangi",
+      "code": "OR",
+      "city": "Karachi",
+      "status": "active",
+      "officerUserId": 2
+    }
+  ],
+  "hydrants": [
+    {
+      "id": 1,
+      "name": "Gulshan Hydrant A",
+      "zoneId": 1,
+      "address": "Block 7, Main University Road",
+      "dailyQuotaGallons": 80000,
+      "operatingHoursStart": "06:00",
+      "operatingHoursEnd": "22:00",
+      "status": "active",
+      "operatorUserId": 4
+    },
+    {
+      "id": 2,
+      "name": "Gulshan Hydrant B",
+      "zoneId": 1,
+      "address": "Block 13-D, Rashid Minhas Road",
+      "dailyQuotaGallons": 60000,
+      "operatingHoursStart": "06:00",
+      "operatingHoursEnd": "21:00",
+      "status": "active",
+      "operatorUserId": 5
+    },
+    {
+      "id": 3,
+      "name": "Nazimabad Hydrant 1",
+      "zoneId": 2,
+      "address": "Block H, North Nazimabad",
+      "dailyQuotaGallons": 70000,
+      "operatingHoursStart": "06:00",
+      "operatingHoursEnd": "22:00",
+      "status": "active",
+      "operatorUserId": 5
+    },
+    {
+      "id": 4,
+      "name": "DHA Hydrant Khayaban",
+      "zoneId": 3,
+      "address": "Khayaban-e-Ittehad, Phase 6",
+      "dailyQuotaGallons": 90000,
+      "operatingHoursStart": "05:30",
+      "operatingHoursEnd": "22:00",
+      "status": "active",
+      "operatorUserId": 4
+    },
+    {
+      "id": 5,
+      "name": "Malir Hydrant Depot",
+      "zoneId": 4,
+      "address": "Malir Halt Water Yard",
+      "dailyQuotaGallons": 50000,
+      "operatingHoursStart": "06:00",
+      "operatingHoursEnd": "20:00",
+      "status": "active",
+      "operatorUserId": 5
+    },
+    {
+      "id": 6,
+      "name": "Orangi Hydrant West",
+      "zoneId": 5,
+      "address": "Sector 11-½, Orangi Town",
+      "dailyQuotaGallons": 45000,
+      "operatingHoursStart": "07:00",
+      "operatingHoursEnd": "20:00",
+      "status": "active",
+      "operatorUserId": 4
+    },
+    {
+      "id": 7,
+      "name": "Gulshan Night Standby",
+      "zoneId": 1,
+      "address": "Civic Centre Yard",
+      "dailyQuotaGallons": 30000,
+      "operatingHoursStart": "18:00",
+      "operatingHoursEnd": "23:00",
+      "status": "inactive",
+      "operatorUserId": 4
+    },
+    {
+      "id": 8,
+      "name": "DHA Creek Hydrant",
+      "zoneId": 3,
+      "address": "Creek Road Service Lane",
+      "dailyQuotaGallons": 55000,
+      "operatingHoursStart": "06:00",
+      "operatingHoursEnd": "21:00",
+      "status": "active",
+      "operatorUserId": 5
+    }
+  ],
+  "tankers": [
+    {
+      "id": 1,
+      "registrationNumber": "KHI-1000",
+      "hydrantId": 1,
+      "capacityGallons": 1000,
+      "status": "available"
+    },
+    {
+      "id": 2,
+      "registrationNumber": "KHI-1001",
+      "hydrantId": 1,
+      "capacityGallons": 3000,
+      "status": "in_service"
+    },
+    {
+      "id": 3,
+      "registrationNumber": "KHI-1002",
+      "hydrantId": 1,
+      "capacityGallons": 6000,
+      "status": "available"
+    },
+    {
+      "id": 4,
+      "registrationNumber": "KHI-1003",
+      "hydrantId": 2,
+      "capacityGallons": 3000,
+      "status": "available"
+    },
+    {
+      "id": 5,
+      "registrationNumber": "KHI-1004",
+      "hydrantId": 2,
+      "capacityGallons": 1000,
+      "status": "available"
+    },
+    {
+      "id": 6,
+      "registrationNumber": "KHI-1005",
+      "hydrantId": 3,
+      "capacityGallons": 6000,
+      "status": "available"
+    },
+    {
+      "id": 7,
+      "registrationNumber": "KHI-1006",
+      "hydrantId": 3,
+      "capacityGallons": 3000,
+      "status": "available"
+    },
+    {
+      "id": 8,
+      "registrationNumber": "KHI-1007",
+      "hydrantId": 4,
+      "capacityGallons": 1000,
+      "status": "available"
+    },
+    {
+      "id": 9,
+      "registrationNumber": "KHI-1008",
+      "hydrantId": 4,
+      "capacityGallons": 6000,
+      "status": "available"
+    },
+    {
+      "id": 10,
+      "registrationNumber": "KHI-1009",
+      "hydrantId": 4,
+      "capacityGallons": 3000,
+      "status": "available"
+    },
+    {
+      "id": 11,
+      "registrationNumber": "KHI-1010",
+      "hydrantId": 5,
+      "capacityGallons": 1000,
+      "status": "available"
+    },
+    {
+      "id": 12,
+      "registrationNumber": "KHI-1011",
+      "hydrantId": 5,
+      "capacityGallons": 3000,
+      "status": "available"
+    },
+    {
+      "id": 13,
+      "registrationNumber": "KHI-1012",
+      "hydrantId": 6,
+      "capacityGallons": 6000,
+      "status": "available"
+    },
+    {
+      "id": 14,
+      "registrationNumber": "KHI-1013",
+      "hydrantId": 8,
+      "capacityGallons": 3000,
+      "status": "available"
+    },
+    {
+      "id": 15,
+      "registrationNumber": "KHI-1014",
+      "hydrantId": 1,
+      "capacityGallons": 1000,
+      "status": "available"
+    }
+  ],
+  "drivers": [
+    {
+      "id": 1,
+      "name": "Ali Raza",
+      "phone": "03011000000",
+      "hydrantId": 1,
+      "licenseNumber": "LHR-DRV-7000",
+      "status": "available",
+      "userId": 6
+    },
+    {
+      "id": 2,
+      "name": "Bilal Ahmed",
+      "phone": "03011000001",
+      "hydrantId": 1,
+      "licenseNumber": "LHR-DRV-7001",
+      "status": "on_trip",
+      "userId": 7
+    },
+    {
+      "id": 3,
+      "name": "Shoaib Khan",
+      "phone": "03011000002",
+      "hydrantId": 2,
+      "licenseNumber": "LHR-DRV-7002",
+      "status": "available",
+      "userId": 8
+    },
+    {
+      "id": 4,
+      "name": "Naveed Akhtar",
+      "phone": "03011000003",
+      "hydrantId": 3,
+      "licenseNumber": "LHR-DRV-7003",
+      "status": "available",
+      "userId": 9
+    },
+    {
+      "id": 5,
+      "name": "Farhan Malik",
+      "phone": "03011000004",
+      "hydrantId": 4,
+      "licenseNumber": "LHR-DRV-7004",
+      "status": "available",
+      "userId": 10
+    },
+    {
+      "id": 6,
+      "name": "Junaid Iqbal",
+      "phone": "03011000005",
+      "hydrantId": 4,
+      "licenseNumber": "LHR-DRV-7005",
+      "status": "available",
+      "userId": 11
+    },
+    {
+      "id": 7,
+      "name": "Waseem Abbas",
+      "phone": "03011000006",
+      "hydrantId": 5,
+      "licenseNumber": "LHR-DRV-7006",
+      "status": "available",
+      "userId": 12
+    },
+    {
+      "id": 8,
+      "name": "Shahid Mehmood",
+      "phone": "03011000007",
+      "hydrantId": 6,
+      "licenseNumber": "LHR-DRV-7007",
+      "status": "available",
+      "userId": 13
+    },
+    {
+      "id": 9,
+      "name": "Adnan Qureshi",
+      "phone": "03011000008",
+      "hydrantId": 8,
+      "licenseNumber": "LHR-DRV-7008",
+      "status": "available",
+      "userId": 14
+    },
+    {
+      "id": 10,
+      "name": "Rehan Siddiqui",
+      "phone": "03011000009",
+      "hydrantId": 1,
+      "licenseNumber": "LHR-DRV-7009",
+      "status": "unavailable",
+      "userId": 15
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Ahmed Khan",
+      "cnic": "42101-7654321-1",
+      "phone": "03212000000",
+      "email": "customer.ahmed@paanilink.pk",
+      "address": "House 12, Street 4, Block 7 Gulshan",
+      "zoneId": 1,
+      "subsidyStatus": "verified",
+      "monthlySubsidyLimitGallons": 6000,
+      "usedThisMonthGallons": 1000,
+      "userId": 16
+    },
+    {
+      "id": 2,
+      "name": "Fatima Noor",
+      "cnic": "42102-7654322-2",
+      "phone": "03212000001",
+      "email": "fatima.noor@mail.pk",
+      "address": "Flat 3-B, Al-Noor Heights, Gulshan",
+      "zoneId": 1,
+      "subsidyStatus": "pending",
+      "monthlySubsidyLimitGallons": 6000,
+      "usedThisMonthGallons": 0,
+      "userId": 17
+    },
+    {
+      "id": 3,
+      "name": "Usman Ali",
+      "cnic": "42103-7654323-3",
+      "phone": "03212000002",
+      "email": "usman.ali@mail.pk",
+      "address": "House 88, Block H, North Nazimabad",
+      "zoneId": 2,
+      "subsidyStatus": "none",
+      "monthlySubsidyLimitGallons": 6000,
+      "usedThisMonthGallons": 0,
+      "userId": 18
+    },
+    {
+      "id": 4,
+      "name": "Ayesha Siddiqui",
+      "cnic": "42104-7654324-4",
+      "phone": "03212000003",
+      "email": "ayesha.siddiqui@mail.pk",
+      "address": "Villa 21, 26th Street, DHA Phase 6",
+      "zoneId": 3,
+      "subsidyStatus": "verified",
+      "monthlySubsidyLimitGallons": 6000,
+      "usedThisMonthGallons": 1000,
+      "userId": 19
+    },
+    {
+      "id": 5,
+      "name": "Imran Malik",
+      "cnic": "42105-7654325-5",
+      "phone": "03212000004",
+      "email": "imran.malik@mail.pk",
+      "address": "Malir Halt, Sector 15",
+      "zoneId": 4,
+      "subsidyStatus": "none",
+      "monthlySubsidyLimitGallons": 6000,
+      "usedThisMonthGallons": 0,
+      "userId": 20
+    },
+    {
+      "id": 6,
+      "name": "Sana Qureshi",
+      "cnic": "42106-7654326-6",
+      "phone": "03212000005",
+      "email": "sana.qureshi@mail.pk",
+      "address": "Sector 11½, Orangi Town",
+      "zoneId": 5,
+      "subsidyStatus": "rejected",
+      "monthlySubsidyLimitGallons": 6000,
+      "usedThisMonthGallons": 0,
+      "userId": 21
+    },
+    {
+      "id": 7,
+      "name": "Hamza Sheikh",
+      "cnic": "42107-7654327-7",
+      "phone": "03212000006",
+      "email": "hamza.sheikh@mail.pk",
+      "address": "Block 13-D, Gulshan-e-Iqbal",
+      "zoneId": 1,
+      "subsidyStatus": "verified",
+      "monthlySubsidyLimitGallons": 6000,
+      "usedThisMonthGallons": 1000,
+      "userId": 22
+    },
+    {
+      "id": 8,
+      "name": "Zainab Hussain",
+      "cnic": "42108-7654328-8",
+      "phone": "03212000007",
+      "email": "zainab.hussain@mail.pk",
+      "address": "Khadda Market Road, DHA",
+      "zoneId": 3,
+      "subsidyStatus": "none",
+      "monthlySubsidyLimitGallons": 6000,
+      "usedThisMonthGallons": 0,
+      "userId": 23
+    },
+    {
+      "id": 9,
+      "name": "Tariq Mehmood",
+      "cnic": "42109-7654329-9",
+      "phone": "03212000008",
+      "email": "tariq.mehmood@mail.pk",
+      "address": "Model Colony, Malir",
+      "zoneId": 4,
+      "subsidyStatus": "pending",
+      "monthlySubsidyLimitGallons": 6000,
+      "usedThisMonthGallons": 0,
+      "userId": 24
+    },
+    {
+      "id": 10,
+      "name": "Nadia Raza",
+      "cnic": "42110-7654330-1",
+      "phone": "03212000009",
+      "email": "nadia.raza@mail.pk",
+      "address": "Buffer Zone, North Nazimabad",
+      "zoneId": 2,
+      "subsidyStatus": "verified",
+      "monthlySubsidyLimitGallons": 6000,
+      "usedThisMonthGallons": 1000,
+      "userId": 25
+    },
+    {
+      "id": 11,
+      "name": "Omar Farooq",
+      "cnic": "42111-7654331-2",
+      "phone": "03212000010",
+      "email": "omar.farooq@mail.pk",
+      "address": "Manghopir Road, Orangi",
+      "zoneId": 5,
+      "subsidyStatus": "none",
+      "monthlySubsidyLimitGallons": 6000,
+      "usedThisMonthGallons": 0,
+      "userId": 26
+    },
+    {
+      "id": 12,
+      "name": "Hina Shah",
+      "cnic": "42112-7654332-3",
+      "phone": "03212000011",
+      "email": "hina.shah@mail.pk",
+      "address": "Disco Bakery Street, Gulshan",
+      "zoneId": 1,
+      "subsidyStatus": "none",
+      "monthlySubsidyLimitGallons": 6000,
+      "usedThisMonthGallons": 0,
+      "userId": 27
+    },
+    {
+      "id": 13,
+      "name": "Kashif Iqbal",
+      "cnic": "42113-7654333-4",
+      "phone": "03212000012",
+      "email": "kashif.iqbal@mail.pk",
+      "address": "Phase 8, DHA",
+      "zoneId": 3,
+      "subsidyStatus": "verified",
+      "monthlySubsidyLimitGallons": 6000,
+      "usedThisMonthGallons": 1000,
+      "userId": 28
+    },
+    {
+      "id": 14,
+      "name": "Rabia Khan",
+      "cnic": "42114-7654334-5",
+      "phone": "03212000013",
+      "email": "rabia.khan@mail.pk",
+      "address": "Airport Housing Society, Malir",
+      "zoneId": 4,
+      "subsidyStatus": "none",
+      "monthlySubsidyLimitGallons": 6000,
+      "usedThisMonthGallons": 0,
+      "userId": 29
+    },
+    {
+      "id": 15,
+      "name": "Asad Javed",
+      "cnic": "42115-7654335-6",
+      "phone": "03212000014",
+      "email": "asad.javed@mail.pk",
+      "address": "Paposh Nagar, Nazimabad",
+      "zoneId": 2,
+      "subsidyStatus": "none",
+      "monthlySubsidyLimitGallons": 6000,
+      "usedThisMonthGallons": 0,
+      "userId": 30
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "type": "commercial",
+      "capacityGallons": 3000,
+      "zoneId": 1,
+      "hydrantId": 1,
+      "deliveryAddress": "House 12, Street 4, Block 7 Gulshan",
+      "preferredDate": "2026-11-05",
+      "preferredTime": "10:00",
+      "estimatedCharges": 8500,
+      "status": "confirmed",
+      "tankerId": 2,
+      "driverId": 1,
+      "dispatchId": 1,
+      "tripId": 1,
+      "officerRemarks": "",
+      "cancelReason": "",
+      "customerConfirmedAt": "2026-11-05T09:40:00.000Z",
+      "groupBookingId": null,
+      "notes": "",
+      "createdAt": "2026-11-04T04:00:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-11-04T04:00:00.000Z",
+          "byUserId": 16,
+          "note": "Submitted"
+        },
+        {
+          "status": "dispatched",
+          "at": "2026-11-05T03:00:00.000Z",
+          "byUserId": 4,
+          "note": "Assigned KHI-1001"
+        },
+        {
+          "status": "delivered",
+          "at": "2026-11-05T09:10:00.000Z",
+          "byUserId": 6,
+          "note": "Delivered"
+        },
+        {
+          "status": "confirmed",
+          "at": "2026-11-05T09:40:00.000Z",
+          "byUserId": 16,
+          "note": "Customer confirmed"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "customerId": 1,
+      "type": "subsidised",
+      "capacityGallons": 1000,
+      "zoneId": 1,
+      "hydrantId": 1,
+      "deliveryAddress": "House 12, Street 4, Block 7 Gulshan",
+      "preferredDate": "2026-11-08",
+      "preferredTime": "09:30",
+      "estimatedCharges": 800,
+      "status": "confirmed",
+      "tankerId": 1,
+      "driverId": 2,
+      "dispatchId": 2,
+      "tripId": 2,
+      "officerRemarks": "Approved under verified subsidy",
+      "cancelReason": "",
+      "customerConfirmedAt": "2026-11-08T07:00:00.000Z",
+      "groupBookingId": null,
+      "notes": "",
+      "createdAt": "2026-11-06T06:00:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending_approval",
+          "at": "2026-11-06T06:00:00.000Z",
+          "byUserId": 16,
+          "note": "Submitted"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-06T11:00:00.000Z",
+          "byUserId": 2,
+          "note": "Approved"
+        },
+        {
+          "status": "delivered",
+          "at": "2026-11-08T06:20:00.000Z",
+          "byUserId": 7,
+          "note": "Delivered"
+        },
+        {
+          "status": "confirmed",
+          "at": "2026-11-08T07:00:00.000Z",
+          "byUserId": 16,
+          "note": "Confirmed"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "customerId": 1,
+      "type": "commercial",
+      "capacityGallons": 3000,
+      "zoneId": 1,
+      "hydrantId": 1,
+      "deliveryAddress": "House 12, Street 4, Block 7 Gulshan",
+      "preferredDate": "2026-11-12",
+      "preferredTime": "11:00",
+      "estimatedCharges": 8500,
+      "status": "confirmed",
+      "tankerId": 2,
+      "driverId": 1,
+      "dispatchId": 3,
+      "tripId": 3,
+      "officerRemarks": "",
+      "cancelReason": "",
+      "customerConfirmedAt": "2026-11-12T06:33:25.463Z",
+      "groupBookingId": null,
+      "notes": "Awaiting customer confirmation",
+      "createdAt": "2026-11-11T03:30:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-11-11T03:30:00.000Z",
+          "byUserId": 16,
+          "note": "Submitted"
+        },
+        {
+          "status": "dispatched",
+          "at": "2026-11-12T02:40:00.000Z",
+          "byUserId": 4,
+          "note": "Assigned"
+        },
+        {
+          "status": "delivered",
+          "at": "2026-11-12T06:50:00.000Z",
+          "byUserId": 6,
+          "note": "Delivered"
+        },
+        {
+          "status": "confirmed",
+          "at": "2026-11-12T06:33:25.463Z",
+          "byUserId": 16,
+          "note": "Customer confirmed delivery"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "customerId": 7,
+      "type": "subsidised",
+      "capacityGallons": 3000,
+      "zoneId": 1,
+      "hydrantId": 1,
+      "deliveryAddress": "Block 13-D, Gulshan-e-Iqbal",
+      "preferredDate": "2026-11-13",
+      "preferredTime": "10:00",
+      "estimatedCharges": 1800,
+      "status": "delivered",
+      "tankerId": 2,
+      "driverId": 1,
+      "dispatchId": 8,
+      "tripId": 8,
+      "officerRemarks": "Quota available",
+      "cancelReason": "",
+      "customerConfirmedAt": null,
+      "groupBookingId": null,
+      "notes": "",
+      "createdAt": "2026-11-10T05:00:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending_approval",
+          "at": "2026-11-10T05:00:00.000Z",
+          "byUserId": 22,
+          "note": "Submitted"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-11T04:00:00.000Z",
+          "byUserId": 2,
+          "note": "Approved"
+        },
+        {
+          "status": "dispatched",
+          "at": "2026-11-12T06:33:36.306Z",
+          "byUserId": 4,
+          "note": "Tanker KHI-1001, driver Ali Raza"
+        },
+        {
+          "status": "filling",
+          "at": "2026-11-12T06:33:45.824Z",
+          "byUserId": 4,
+          "note": "Filling started"
+        },
+        {
+          "status": "filling",
+          "at": "2026-11-12T06:33:47.902Z",
+          "byUserId": 4,
+          "note": "Filled 3000 gallons"
+        },
+        {
+          "status": "departed",
+          "at": "2026-11-12T06:33:49.376Z",
+          "byUserId": 4,
+          "note": "Tanker departed hydrant"
+        },
+        {
+          "status": "arrived",
+          "at": "2026-11-12T06:33:51.440Z",
+          "byUserId": 6,
+          "note": "arrived"
+        },
+        {
+          "status": "delivered",
+          "at": "2026-11-12T06:33:52.920Z",
+          "byUserId": 6,
+          "note": "delivered"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "customerId": 1,
+      "type": "commercial",
+      "capacityGallons": 1000,
+      "zoneId": 1,
+      "hydrantId": 1,
+      "deliveryAddress": "House 12, Street 4, Block 7 Gulshan",
+      "preferredDate": "2026-11-14",
+      "preferredTime": "15:00",
+      "estimatedCharges": 3500,
+      "status": "delivered",
+      "tankerId": 1,
+      "driverId": 1,
+      "dispatchId": 9,
+      "tripId": 9,
+      "officerRemarks": "",
+      "cancelReason": "",
+      "customerConfirmedAt": null,
+      "groupBookingId": null,
+      "notes": "Commercial – no officer approval required",
+      "createdAt": "2026-11-12T02:15:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-11-12T02:15:00.000Z",
+          "byUserId": 16,
+          "note": "Submitted"
+        },
+        {
+          "status": "dispatched",
+          "at": "2026-11-12T07:37:14.055Z",
+          "byUserId": 4,
+          "note": "Tanker KHI-1000, driver Ali Raza"
+        },
+        {
+          "status": "filling",
+          "at": "2026-11-12T07:37:20.169Z",
+          "byUserId": 4,
+          "note": "Filling started"
+        },
+        {
+          "status": "arrived",
+          "at": "2026-11-12T07:40:02.833Z",
+          "byUserId": 6,
+          "note": "arrived"
+        },
+        {
+          "status": "delivered",
+          "at": "2026-11-12T07:40:10.038Z",
+          "byUserId": 6,
+          "note": "delivered"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "customerId": 1,
+      "type": "subsidised",
+      "capacityGallons": 1000,
+      "zoneId": 1,
+      "hydrantId": 2,
+      "deliveryAddress": "House 12, Street 4, Block 7 Gulshan",
+      "preferredDate": "2026-11-15",
+      "preferredTime": "09:00",
+      "estimatedCharges": 800,
+      "status": "pending_approval",
+      "tankerId": null,
+      "driverId": null,
+      "dispatchId": null,
+      "tripId": null,
+      "officerRemarks": "",
+      "cancelReason": "",
+      "customerConfirmedAt": null,
+      "groupBookingId": null,
+      "notes": "",
+      "createdAt": "2026-11-12T03:00:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending_approval",
+          "at": "2026-11-12T03:00:00.000Z",
+          "byUserId": 16,
+          "note": "Submitted"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "customerId": 2,
+      "type": "commercial",
+      "capacityGallons": 3000,
+      "zoneId": 1,
+      "hydrantId": 2,
+      "deliveryAddress": "Flat 3-B, Al-Noor Heights, Gulshan",
+      "preferredDate": "2026-11-16",
+      "preferredTime": "11:00",
+      "estimatedCharges": 8500,
+      "status": "pending",
+      "tankerId": null,
+      "driverId": null,
+      "dispatchId": null,
+      "tripId": null,
+      "officerRemarks": "",
+      "cancelReason": "",
+      "customerConfirmedAt": null,
+      "groupBookingId": null,
+      "notes": "",
+      "createdAt": "2026-11-01T03:00:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-11-01T03:00:00.000Z",
+          "byUserId": 18,
+          "note": "Submitted"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "customerId": 3,
+      "type": "commercial",
+      "capacityGallons": 6000,
+      "zoneId": 2,
+      "hydrantId": 3,
+      "deliveryAddress": "House 88, Block H, North Nazimabad",
+      "preferredDate": "2026-11-16",
+      "preferredTime": "13:00",
+      "estimatedCharges": 15000,
+      "status": "pending",
+      "tankerId": null,
+      "driverId": null,
+      "dispatchId": null,
+      "tripId": null,
+      "officerRemarks": "",
+      "cancelReason": "",
+      "customerConfirmedAt": null,
+      "groupBookingId": null,
+      "notes": "",
+      "createdAt": "2026-11-01T03:00:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-11-01T03:00:00.000Z",
+          "byUserId": 19,
+          "note": "Submitted"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "customerId": 4,
+      "type": "subsidised",
+      "capacityGallons": 1000,
+      "zoneId": 3,
+      "hydrantId": 4,
+      "deliveryAddress": "Villa 21, 26th Street, DHA Phase 6",
+      "preferredDate": "2026-11-13",
+      "preferredTime": "08:00",
+      "estimatedCharges": 800,
+      "status": "approved",
+      "tankerId": null,
+      "driverId": null,
+      "dispatchId": null,
+      "tripId": null,
+      "officerRemarks": "Approved",
+      "cancelReason": "",
+      "customerConfirmedAt": null,
+      "groupBookingId": null,
+      "notes": "",
+      "createdAt": "2026-11-01T03:00:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending_approval",
+          "at": "2026-11-01T03:00:00.000Z",
+          "byUserId": 20,
+          "note": "Submitted"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "customerId": 4,
+      "type": "commercial",
+      "capacityGallons": 3000,
+      "zoneId": 1,
+      "hydrantId": 1,
+      "deliveryAddress": "Villa 21, 26th Street, DHA Phase 6",
+      "preferredDate": "2026-11-09",
+      "preferredTime": "16:00",
+      "estimatedCharges": 8500,
+      "status": "disputed",
+      "tankerId": 8,
+      "driverId": 5,
+      "dispatchId": 4,
+      "tripId": 4,
+      "officerRemarks": "",
+      "cancelReason": "",
+      "customerConfirmedAt": null,
+      "groupBookingId": null,
+      "notes": "",
+      "createdAt": "2026-11-01T03:00:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-11-01T03:00:00.000Z",
+          "byUserId": 20,
+          "note": "Submitted"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "customerId": 5,
+      "type": "commercial",
+      "capacityGallons": 3000,
+      "zoneId": 4,
+      "hydrantId": 5,
+      "deliveryAddress": "Malir Halt, Sector 15",
+      "preferredDate": "2026-11-07",
+      "preferredTime": "12:00",
+      "estimatedCharges": 8500,
+      "status": "failed",
+      "tankerId": 11,
+      "driverId": 7,
+      "dispatchId": 5,
+      "tripId": 5,
+      "officerRemarks": "",
+      "cancelReason": "",
+      "customerConfirmedAt": null,
+      "groupBookingId": null,
+      "notes": "",
+      "createdAt": "2026-11-01T03:00:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-11-01T03:00:00.000Z",
+          "byUserId": 21,
+          "note": "Submitted"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "customerId": 6,
+      "type": "commercial",
+      "capacityGallons": 1000,
+      "zoneId": 5,
+      "hydrantId": 6,
+      "deliveryAddress": "Sector 11½, Orangi Town",
+      "preferredDate": "2026-11-10",
+      "preferredTime": "10:00",
+      "estimatedCharges": 3500,
+      "status": "cancelled",
+      "tankerId": null,
+      "driverId": null,
+      "dispatchId": null,
+      "tripId": null,
+      "officerRemarks": "",
+      "cancelReason": "Customer cancelled before dispatch",
+      "customerConfirmedAt": null,
+      "groupBookingId": null,
+      "notes": "",
+      "createdAt": "2026-11-01T03:00:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-11-01T03:00:00.000Z",
+          "byUserId": 22,
+          "note": "Submitted"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "customerId": 10,
+      "type": "subsidised",
+      "capacityGallons": 3000,
+      "zoneId": 2,
+      "hydrantId": 3,
+      "deliveryAddress": "Buffer Zone, North Nazimabad",
+      "preferredDate": "2026-11-14",
+      "preferredTime": "09:30",
+      "estimatedCharges": 1800,
+      "status": "approved",
+      "tankerId": null,
+      "driverId": null,
+      "dispatchId": null,
+      "tripId": null,
+      "officerRemarks": "Approved",
+      "cancelReason": "",
+      "customerConfirmedAt": null,
+      "groupBookingId": null,
+      "notes": "",
+      "createdAt": "2026-11-01T03:00:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending_approval",
+          "at": "2026-11-01T03:00:00.000Z",
+          "byUserId": 26,
+          "note": "Submitted"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "customerId": 8,
+      "type": "commercial",
+      "capacityGallons": 6000,
+      "zoneId": 3,
+      "hydrantId": 8,
+      "deliveryAddress": "Khadda Market Road, DHA",
+      "preferredDate": "2026-11-17",
+      "preferredTime": "14:00",
+      "estimatedCharges": 15000,
+      "status": "pending",
+      "tankerId": null,
+      "driverId": null,
+      "dispatchId": null,
+      "tripId": null,
+      "officerRemarks": "",
+      "cancelReason": "",
+      "customerConfirmedAt": null,
+      "groupBookingId": null,
+      "notes": "",
+      "createdAt": "2026-11-01T03:00:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-11-01T03:00:00.000Z",
+          "byUserId": 24,
+          "note": "Submitted"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "customerId": 12,
+      "type": "commercial",
+      "capacityGallons": 1000,
+      "zoneId": 1,
+      "hydrantId": 1,
+      "deliveryAddress": "Disco Bakery Street, Gulshan",
+      "preferredDate": "2026-11-18",
+      "preferredTime": "10:30",
+      "estimatedCharges": 3500,
+      "status": "pending",
+      "tankerId": null,
+      "driverId": null,
+      "dispatchId": null,
+      "tripId": null,
+      "officerRemarks": "",
+      "cancelReason": "",
+      "customerConfirmedAt": null,
+      "groupBookingId": null,
+      "notes": "",
+      "createdAt": "2026-11-01T03:00:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-11-01T03:00:00.000Z",
+          "byUserId": 28,
+          "note": "Submitted"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "customerId": 13,
+      "type": "subsidised",
+      "capacityGallons": 1000,
+      "zoneId": 3,
+      "hydrantId": 4,
+      "deliveryAddress": "Phase 8, DHA",
+      "preferredDate": "2026-11-06",
+      "preferredTime": "11:00",
+      "estimatedCharges": 800,
+      "status": "rejected",
+      "tankerId": null,
+      "driverId": null,
+      "dispatchId": null,
+      "tripId": null,
+      "officerRemarks": "Monthly subsidised quota already used",
+      "cancelReason": "",
+      "customerConfirmedAt": null,
+      "groupBookingId": null,
+      "notes": "",
+      "createdAt": "2026-11-01T03:00:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending_approval",
+          "at": "2026-11-01T03:00:00.000Z",
+          "byUserId": 29,
+          "note": "Submitted"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "customerId": 11,
+      "type": "commercial",
+      "capacityGallons": 3000,
+      "zoneId": 5,
+      "hydrantId": 6,
+      "deliveryAddress": "Manghopir Road, Orangi",
+      "preferredDate": "2026-11-19",
+      "preferredTime": "12:00",
+      "estimatedCharges": 8500,
+      "status": "pending",
+      "tankerId": null,
+      "driverId": null,
+      "dispatchId": null,
+      "tripId": null,
+      "officerRemarks": "",
+      "cancelReason": "",
+      "customerConfirmedAt": null,
+      "groupBookingId": null,
+      "notes": "",
+      "createdAt": "2026-11-01T03:00:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-11-01T03:00:00.000Z",
+          "byUserId": 27,
+          "note": "Submitted"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "customerId": 7,
+      "type": "commercial",
+      "capacityGallons": 6000,
+      "zoneId": 1,
+      "hydrantId": 1,
+      "deliveryAddress": "Block 13-D, Gulshan-e-Iqbal",
+      "preferredDate": "2026-11-20",
+      "preferredTime": "08:30",
+      "estimatedCharges": 15000,
+      "status": "pending",
+      "tankerId": null,
+      "driverId": null,
+      "dispatchId": null,
+      "tripId": null,
+      "officerRemarks": "",
+      "cancelReason": "",
+      "customerConfirmedAt": null,
+      "groupBookingId": null,
+      "notes": "",
+      "createdAt": "2026-11-01T03:00:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-11-01T03:00:00.000Z",
+          "byUserId": 23,
+          "note": "Submitted"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "customerId": 14,
+      "type": "commercial",
+      "capacityGallons": 1000,
+      "zoneId": 4,
+      "hydrantId": 5,
+      "deliveryAddress": "Airport Housing Society, Malir",
+      "preferredDate": "2026-11-18",
+      "preferredTime": "15:00",
+      "estimatedCharges": 3500,
+      "status": "pending",
+      "tankerId": null,
+      "driverId": null,
+      "dispatchId": null,
+      "tripId": null,
+      "officerRemarks": "",
+      "cancelReason": "",
+      "customerConfirmedAt": null,
+      "groupBookingId": null,
+      "notes": "",
+      "createdAt": "2026-11-01T03:00:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-11-01T03:00:00.000Z",
+          "byUserId": 30,
+          "note": "Submitted"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "customerId": 15,
+      "type": "commercial",
+      "capacityGallons": 3000,
+      "zoneId": 2,
+      "hydrantId": 3,
+      "deliveryAddress": "Paposh Nagar, Nazimabad",
+      "preferredDate": "2026-11-21",
+      "preferredTime": "09:00",
+      "estimatedCharges": 8500,
+      "status": "pending",
+      "tankerId": null,
+      "driverId": null,
+      "dispatchId": null,
+      "tripId": null,
+      "officerRemarks": "",
+      "cancelReason": "",
+      "customerConfirmedAt": null,
+      "groupBookingId": null,
+      "notes": "",
+      "createdAt": "2026-11-01T03:00:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-11-01T03:00:00.000Z",
+          "byUserId": 31,
+          "note": "Submitted"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "customerId": 9,
+      "type": "commercial",
+      "capacityGallons": 1000,
+      "zoneId": 4,
+      "hydrantId": 5,
+      "deliveryAddress": "Model Colony, Malir",
+      "preferredDate": "2026-11-15",
+      "preferredTime": "16:00",
+      "estimatedCharges": 3500,
+      "status": "pending",
+      "tankerId": null,
+      "driverId": null,
+      "dispatchId": null,
+      "tripId": null,
+      "officerRemarks": "",
+      "cancelReason": "",
+      "customerConfirmedAt": null,
+      "groupBookingId": null,
+      "notes": "",
+      "createdAt": "2026-11-01T03:00:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-11-01T03:00:00.000Z",
+          "byUserId": 25,
+          "note": "Submitted"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "customerId": 3,
+      "type": "commercial",
+      "capacityGallons": 1000,
+      "zoneId": 2,
+      "hydrantId": 3,
+      "deliveryAddress": "House 88, Block H, North Nazimabad",
+      "preferredDate": "2026-11-03",
+      "preferredTime": "10:00",
+      "estimatedCharges": 3500,
+      "status": "confirmed",
+      "tankerId": 6,
+      "driverId": 4,
+      "dispatchId": 6,
+      "tripId": 6,
+      "officerRemarks": "",
+      "cancelReason": "",
+      "customerConfirmedAt": "2026-11-03T10:00:00.000Z",
+      "groupBookingId": null,
+      "notes": "",
+      "createdAt": "2026-11-01T03:00:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-11-01T03:00:00.000Z",
+          "byUserId": 19,
+          "note": "Submitted"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "customerId": 10,
+      "type": "commercial",
+      "capacityGallons": 1000,
+      "zoneId": 2,
+      "hydrantId": 3,
+      "deliveryAddress": "Buffer Zone, North Nazimabad",
+      "preferredDate": "2026-11-11",
+      "preferredTime": "11:30",
+      "estimatedCharges": 3500,
+      "status": "delivered",
+      "tankerId": 7,
+      "driverId": 4,
+      "dispatchId": 7,
+      "tripId": 7,
+      "officerRemarks": "",
+      "cancelReason": "",
+      "customerConfirmedAt": null,
+      "groupBookingId": null,
+      "notes": "",
+      "createdAt": "2026-11-01T03:00:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-11-01T03:00:00.000Z",
+          "byUserId": 26,
+          "note": "Submitted"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "customerId": 7,
+      "type": "group",
+      "capacityGallons": 1000,
+      "zoneId": 1,
+      "hydrantId": 1,
+      "deliveryAddress": "Block 13-D, Gulshan-e-Iqbal",
+      "preferredDate": "2026-11-22",
+      "preferredTime": "09:00",
+      "estimatedCharges": 3500,
+      "status": "pending",
+      "tankerId": null,
+      "driverId": null,
+      "dispatchId": null,
+      "tripId": null,
+      "officerRemarks": "",
+      "cancelReason": "",
+      "customerConfirmedAt": null,
+      "groupBookingId": 1,
+      "notes": "Group: Gulshan Welfare Block",
+      "createdAt": "2026-11-01T03:00:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-11-01T03:00:00.000Z",
+          "byUserId": 23,
+          "note": "Submitted"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "customerId": 7,
+      "type": "group",
+      "capacityGallons": 3000,
+      "zoneId": 1,
+      "hydrantId": 1,
+      "deliveryAddress": "Block 13-D, Gulshan-e-Iqbal",
+      "preferredDate": "2026-11-22",
+      "preferredTime": "09:00",
+      "estimatedCharges": 8500,
+      "status": "filling",
+      "tankerId": 2,
+      "driverId": 2,
+      "dispatchId": 11,
+      "tripId": 11,
+      "officerRemarks": "",
+      "cancelReason": "",
+      "customerConfirmedAt": null,
+      "groupBookingId": 1,
+      "notes": "Group: Gulshan Welfare Block",
+      "createdAt": "2026-11-01T03:00:00.000Z",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-11-01T03:00:00.000Z",
+          "byUserId": 23,
+          "note": "Submitted"
+        },
+        {
+          "status": "dispatched",
+          "at": "2026-11-12T07:38:13.464Z",
+          "byUserId": 4,
+          "note": "Tanker KHI-1001, driver Bilal Ahmed"
+        },
+        {
+          "status": "filling",
+          "at": "2026-11-12T07:38:21.249Z",
+          "byUserId": 4,
+          "note": "Filling started"
+        },
+        {
+          "status": "filling",
+          "at": "2026-11-12T07:38:28.775Z",
+          "byUserId": 4,
+          "note": "Filled 3000 gallons"
+        },
+        {
+          "status": "departed",
+          "at": "2026-11-12T07:38:32.761Z",
+          "byUserId": 4,
+          "note": "Tanker departed hydrant"
+        },
+        {
+          "status": "filling",
+          "at": "2026-11-12T07:38:41.942Z",
+          "byUserId": 4,
+          "note": "Filling started"
+        }
+      ]
+    },
+    {
+      "customerId": 1,
+      "type": "commercial",
+      "capacityGallons": 1000,
+      "zoneId": 1,
+      "hydrantId": 1,
+      "deliveryAddress": "House 12, Street 4, Block 7 Gulshan",
+      "preferredDate": "2026-11-13",
+      "preferredTime": "13:35",
+      "notes": "",
+      "groupBookingId": null,
+      "driverId": null,
+      "tankerId": null,
+      "estimatedCharges": 3500,
+      "status": "pending",
+      "statusHistory": [
+        {
+          "status": "pending",
+          "at": "2026-11-12T07:35:50.764Z",
+          "byUserId": 16,
+          "note": "Booking submitted"
+        }
+      ],
+      "createdAt": "2026-11-12T07:35:50.764Z",
+      "id": 26
+    }
+  ],
+  "groupBookings": [
+    {
+      "id": 1,
+      "customerId": 7,
+      "groupName": "Gulshan Welfare Block",
+      "householdCount": 8,
+      "hydrantId": 1,
+      "zoneId": 1,
+      "preferredDate": "2026-11-22",
+      "preferredTime": "09:00",
+      "deliveries": [
+        {
+          "address": "House 1, Welfare Block, Gulshan",
+          "gallons": 1000
+        },
+        {
+          "address": "House 4, Welfare Block, Gulshan",
+          "gallons": 3000
+        }
+      ],
+      "totalGallons": 4000,
+      "status": "pending",
+      "createdAt": "2026-11-11T11:00:00.000Z"
+    }
+  ],
+  "subsidyApplications": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "householdSize": 6,
+      "monthlyIncome": 42000,
+      "proofDetails": "Utility bill + NADRA family certificate PL-441",
+      "status": "verified",
+      "officerRemarks": "Eligible low-income household",
+      "createdAt": "2026-10-12T05:00:00.000Z",
+      "reviewedAt": "2026-10-13T06:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "customerId": 2,
+      "householdSize": 5,
+      "monthlyIncome": 38000,
+      "proofDetails": "B-form copies and rental agreement",
+      "status": "pending",
+      "officerRemarks": "",
+      "createdAt": "2026-11-09T04:20:00.000Z",
+      "reviewedAt": null
+    },
+    {
+      "id": 3,
+      "customerId": 4,
+      "householdSize": 4,
+      "monthlyIncome": 50000,
+      "proofDetails": "Salary slip + CNIC copies",
+      "status": "verified",
+      "officerRemarks": "Verified",
+      "createdAt": "2026-10-02T03:00:00.000Z",
+      "reviewedAt": "2026-10-03T07:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "customerId": 6,
+      "householdSize": 3,
+      "monthlyIncome": 180000,
+      "proofDetails": "Self-declared income only",
+      "status": "rejected",
+      "officerRemarks": "Income exceeds subsidy threshold",
+      "createdAt": "2026-10-20T09:00:00.000Z",
+      "reviewedAt": "2026-10-21T05:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "customerId": 9,
+      "householdSize": 7,
+      "monthlyIncome": 36000,
+      "proofDetails": "BISP registration number 00912",
+      "status": "pending",
+      "officerRemarks": "",
+      "createdAt": "2026-11-11T08:00:00.000Z",
+      "reviewedAt": null
+    },
+    {
+      "id": 6,
+      "customerId": 10,
+      "householdSize": 5,
+      "monthlyIncome": 41000,
+      "proofDetails": "Union council certificate",
+      "status": "verified",
+      "officerRemarks": "Approved",
+      "createdAt": "2026-09-18T05:00:00.000Z",
+      "reviewedAt": "2026-09-19T05:00:00.000Z"
+    }
+  ],
+  "dispatches": [
+    {
+      "id": 1,
+      "bookingId": 1,
+      "hydrantId": 1,
+      "tankerId": 2,
+      "driverId": 1,
+      "deliveryDate": "2026-11-05",
+      "fillingStartedAt": "2026-11-05T02:00:00.000Z",
+      "fillingCompletedAt": "2026-11-05T02:40:00.000Z",
+      "gallonsFilled": 3000,
+      "departedAt": "2026-11-05T03:00:00.000Z",
+      "status": "completed",
+      "createdAt": "2026-11-05T01:50:00.000Z"
+    },
+    {
+      "id": 2,
+      "bookingId": 2,
+      "hydrantId": 1,
+      "tankerId": 1,
+      "driverId": 2,
+      "deliveryDate": "2026-11-08",
+      "fillingStartedAt": "2026-11-08T02:00:00.000Z",
+      "fillingCompletedAt": "2026-11-08T02:40:00.000Z",
+      "gallonsFilled": 1000,
+      "departedAt": "2026-11-08T03:00:00.000Z",
+      "status": "completed",
+      "createdAt": "2026-11-08T01:50:00.000Z"
+    },
+    {
+      "id": 3,
+      "bookingId": 3,
+      "hydrantId": 1,
+      "tankerId": 2,
+      "driverId": 1,
+      "deliveryDate": "2026-11-12",
+      "fillingStartedAt": "2026-11-12T02:00:00.000Z",
+      "fillingCompletedAt": "2026-11-12T02:40:00.000Z",
+      "gallonsFilled": 3000,
+      "departedAt": "2026-11-12T03:00:00.000Z",
+      "status": "completed",
+      "createdAt": "2026-11-12T01:50:00.000Z"
+    },
+    {
+      "id": 4,
+      "bookingId": 10,
+      "hydrantId": 1,
+      "tankerId": 2,
+      "driverId": 1,
+      "deliveryDate": "2026-11-09",
+      "fillingStartedAt": "2026-11-09T02:00:00.000Z",
+      "fillingCompletedAt": "2026-11-09T02:40:00.000Z",
+      "gallonsFilled": 3000,
+      "departedAt": "2026-11-09T03:00:00.000Z",
+      "status": "completed",
+      "createdAt": "2026-11-09T01:50:00.000Z"
+    },
+    {
+      "id": 5,
+      "bookingId": 11,
+      "hydrantId": 5,
+      "tankerId": 11,
+      "driverId": 7,
+      "deliveryDate": "2026-11-07",
+      "fillingStartedAt": "2026-11-07T02:00:00.000Z",
+      "fillingCompletedAt": "2026-11-07T02:40:00.000Z",
+      "gallonsFilled": 0,
+      "departedAt": "2026-11-07T03:00:00.000Z",
+      "status": "failed",
+      "createdAt": "2026-11-07T01:50:00.000Z"
+    },
+    {
+      "id": 6,
+      "bookingId": 22,
+      "hydrantId": 3,
+      "tankerId": 6,
+      "driverId": 4,
+      "deliveryDate": "2026-11-03",
+      "fillingStartedAt": "2026-11-03T02:00:00.000Z",
+      "fillingCompletedAt": "2026-11-03T02:40:00.000Z",
+      "gallonsFilled": 1000,
+      "departedAt": "2026-11-03T03:00:00.000Z",
+      "status": "completed",
+      "createdAt": "2026-11-03T01:50:00.000Z"
+    },
+    {
+      "id": 7,
+      "bookingId": 23,
+      "hydrantId": 3,
+      "tankerId": 7,
+      "driverId": 4,
+      "deliveryDate": "2026-11-11",
+      "fillingStartedAt": "2026-11-11T02:00:00.000Z",
+      "fillingCompletedAt": "2026-11-11T02:40:00.000Z",
+      "gallonsFilled": 1000,
+      "departedAt": "2026-11-11T03:00:00.000Z",
+      "status": "completed",
+      "createdAt": "2026-11-11T01:50:00.000Z"
+    },
+    {
+      "bookingId": 4,
+      "hydrantId": 1,
+      "tankerId": 2,
+      "driverId": 1,
+      "deliveryDate": "2026-11-13",
+      "fillingStartedAt": "2026-11-12T06:33:45.523Z",
+      "fillingCompletedAt": "2026-11-12T06:33:47.605Z",
+      "gallonsFilled": 3000,
+      "departedAt": "2026-11-12T06:33:49.092Z",
+      "status": "completed",
+      "createdAt": "2026-11-12T06:33:35.713Z",
+      "id": 8
+    },
+    {
+      "bookingId": 5,
+      "hydrantId": 1,
+      "tankerId": 1,
+      "driverId": 1,
+      "deliveryDate": "2026-11-14",
+      "fillingStartedAt": "2026-11-12T07:37:19.875Z",
+      "fillingCompletedAt": null,
+      "gallonsFilled": 0,
+      "departedAt": null,
+      "status": "completed",
+      "createdAt": "2026-11-12T07:37:13.477Z",
+      "id": 9
+    },
+    {
+      "bookingId": 25,
+      "hydrantId": 1,
+      "tankerId": 2,
+      "driverId": 2,
+      "deliveryDate": "2026-11-22",
+      "fillingStartedAt": "2026-11-12T07:38:20.950Z",
+      "fillingCompletedAt": "2026-11-12T07:38:28.476Z",
+      "gallonsFilled": 3000,
+      "departedAt": "2026-11-12T07:38:32.466Z",
+      "status": "departed",
+      "createdAt": "2026-11-12T07:38:12.313Z",
+      "id": 10
+    },
+    {
+      "bookingId": 25,
+      "hydrantId": 1,
+      "tankerId": 2,
+      "driverId": 2,
+      "deliveryDate": "2026-11-22",
+      "fillingStartedAt": "2026-11-12T07:38:41.655Z",
+      "fillingCompletedAt": null,
+      "gallonsFilled": 0,
+      "departedAt": null,
+      "status": "filling",
+      "createdAt": "2026-11-12T07:38:12.612Z",
+      "id": 11
+    }
+  ],
+  "trips": [
+    {
+      "id": 1,
+      "dispatchId": 1,
+      "bookingId": 1,
+      "driverId": 1,
+      "tankerId": 2,
+      "status": "delivered",
+      "failureReason": "",
+      "failureDescription": "",
+      "arrivedAt": "2026-11-05T05:30:00.000Z",
+      "completedAt": "2026-11-05T06:40:00.000Z",
+      "createdAt": "2026-11-05T01:50:00.000Z"
+    },
+    {
+      "id": 2,
+      "dispatchId": 2,
+      "bookingId": 2,
+      "driverId": 2,
+      "tankerId": 1,
+      "status": "delivered",
+      "failureReason": "",
+      "failureDescription": "",
+      "arrivedAt": "2026-11-08T05:30:00.000Z",
+      "completedAt": "2026-11-08T06:40:00.000Z",
+      "createdAt": "2026-11-08T01:50:00.000Z"
+    },
+    {
+      "id": 3,
+      "dispatchId": 3,
+      "bookingId": 3,
+      "driverId": 1,
+      "tankerId": 2,
+      "status": "delivered",
+      "failureReason": "",
+      "failureDescription": "",
+      "arrivedAt": "2026-11-12T05:30:00.000Z",
+      "completedAt": "2026-11-12T06:40:00.000Z",
+      "createdAt": "2026-11-12T01:50:00.000Z"
+    },
+    {
+      "id": 4,
+      "dispatchId": 4,
+      "bookingId": 10,
+      "driverId": 1,
+      "tankerId": 2,
+      "status": "delivered",
+      "failureReason": "",
+      "failureDescription": "",
+      "arrivedAt": "2026-11-09T05:30:00.000Z",
+      "completedAt": "2026-11-09T06:40:00.000Z",
+      "createdAt": "2026-11-09T01:50:00.000Z"
+    },
+    {
+      "id": 5,
+      "dispatchId": 5,
+      "bookingId": 11,
+      "driverId": 7,
+      "tankerId": 11,
+      "status": "failed",
+      "failureReason": "house_locked",
+      "failureDescription": "No response at gate",
+      "arrivedAt": "2026-11-07T05:30:00.000Z",
+      "completedAt": "2026-11-07T06:40:00.000Z",
+      "createdAt": "2026-11-07T01:50:00.000Z"
+    },
+    {
+      "id": 6,
+      "dispatchId": 6,
+      "bookingId": 22,
+      "driverId": 4,
+      "tankerId": 6,
+      "status": "delivered",
+      "failureReason": "",
+      "failureDescription": "",
+      "arrivedAt": "2026-11-03T05:30:00.000Z",
+      "completedAt": "2026-11-03T06:40:00.000Z",
+      "createdAt": "2026-11-03T01:50:00.000Z"
+    },
+    {
+      "id": 7,
+      "dispatchId": 7,
+      "bookingId": 23,
+      "driverId": 4,
+      "tankerId": 7,
+      "status": "delivered",
+      "failureReason": "",
+      "failureDescription": "",
+      "arrivedAt": "2026-11-11T05:30:00.000Z",
+      "completedAt": "2026-11-11T06:40:00.000Z",
+      "createdAt": "2026-11-11T01:50:00.000Z"
+    },
+    {
+      "dispatchId": 8,
+      "bookingId": 4,
+      "driverId": 1,
+      "tankerId": 2,
+      "status": "delivered",
+      "failureReason": "",
+      "failureDescription": "",
+      "arrivedAt": "2026-11-12T06:33:51.140Z",
+      "completedAt": "2026-11-12T06:33:52.624Z",
+      "createdAt": "2026-11-12T06:33:36.009Z",
+      "id": 8
+    },
+    {
+      "dispatchId": 9,
+      "bookingId": 5,
+      "driverId": 1,
+      "tankerId": 1,
+      "status": "delivered",
+      "failureReason": "",
+      "failureDescription": "",
+      "arrivedAt": "2026-11-12T07:40:02.534Z",
+      "completedAt": "2026-11-12T07:40:09.739Z",
+      "createdAt": "2026-11-12T07:37:13.759Z",
+      "id": 9
+    },
+    {
+      "dispatchId": 10,
+      "bookingId": 25,
+      "driverId": 2,
+      "tankerId": 2,
+      "status": "assigned",
+      "failureReason": "",
+      "failureDescription": "",
+      "arrivedAt": null,
+      "completedAt": null,
+      "createdAt": "2026-11-12T07:38:12.613Z",
+      "id": 10
+    },
+    {
+      "dispatchId": 11,
+      "bookingId": 25,
+      "driverId": 2,
+      "tankerId": 2,
+      "status": "assigned",
+      "failureReason": "",
+      "failureDescription": "",
+      "arrivedAt": null,
+      "completedAt": null,
+      "createdAt": "2026-11-12T07:38:12.913Z",
+      "id": 11
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "bookingId": 1,
+      "customerId": 1,
+      "amount": 8500,
+      "method": "simulated_card",
+      "status": "paid",
+      "paidAt": "2026-11-04T04:05:00.000Z"
+    },
+    {
+      "id": 2,
+      "bookingId": 2,
+      "customerId": 1,
+      "amount": 800,
+      "method": "subsidy_offset",
+      "status": "paid",
+      "paidAt": "2026-11-06T06:05:00.000Z"
+    },
+    {
+      "id": 3,
+      "bookingId": 3,
+      "customerId": 1,
+      "amount": 8500,
+      "method": "simulated_card",
+      "status": "paid",
+      "paidAt": "2026-11-11T03:35:00.000Z"
+    },
+    {
+      "id": 4,
+      "bookingId": 5,
+      "customerId": 1,
+      "amount": 3500,
+      "method": "simulated_card",
+      "status": "unpaid",
+      "paidAt": null
+    },
+    {
+      "id": 5,
+      "bookingId": 10,
+      "customerId": 4,
+      "amount": 8500,
+      "method": "simulated_card",
+      "status": "paid",
+      "paidAt": "2026-11-08T05:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "bookingId": 22,
+      "customerId": 3,
+      "amount": 3500,
+      "method": "simulated_wallet",
+      "status": "paid",
+      "paidAt": "2026-11-02T07:00:00.000Z"
+    },
+    {
+      "bookingId": 26,
+      "customerId": 1,
+      "amount": 3500,
+      "method": "simulated_card",
+      "status": "simulated",
+      "paidAt": "2026-11-12T07:35:51.361Z",
+      "id": 7
+    }
+  ],
+  "disputes": [
+    {
+      "id": 1,
+      "bookingId": 10,
+      "customerId": 4,
+      "zoneId": 1,
+      "description": "Tanker arrived with less than half the ordered volume. Water quality also appeared cloudy.",
+      "status": "open",
+      "officerRemarks": "",
+      "createdAt": "2026-11-09T13:00:00.000Z",
+      "resolvedAt": null
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "userId": 16,
+      "title": "Tanker delivered",
+      "message": "Booking #3 has been marked delivered. Please confirm or dispute.",
+      "link": "../customer/booking-details.html?id=3",
+      "read": false,
+      "createdAt": "2026-11-12T06:55:00.000Z"
+    },
+    {
+      "id": 2,
+      "userId": 16,
+      "title": "Subsidy verified",
+      "message": "Your household subsidy status is verified.",
+      "link": "../customer/subsidy.html",
+      "read": true,
+      "createdAt": "2026-10-13T06:05:00.000Z"
+    },
+    {
+      "id": 3,
+      "userId": 4,
+      "title": "Dispatch required",
+      "message": "Approved subsidised booking #4 is waiting for a tanker.",
+      "link": "../operator/dispatch.html?bookingId=4",
+      "read": false,
+      "createdAt": "2026-11-11T04:05:00.000Z"
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "title": "Pending subsidy",
+      "message": "Fatima Noor submitted a subsidy application.",
+      "link": "../officer/subsidy-applications.html",
+      "read": false,
+      "createdAt": "2026-11-09T04:25:00.000Z"
+    },
+    {
+      "id": 5,
+      "userId": 6,
+      "title": "Trip completed",
+      "message": "Delivery for booking #3 recorded.",
+      "link": "../driver/trip-details.html?id=3",
+      "read": true,
+      "createdAt": "2026-11-12T06:51:00.000Z"
+    },
+    {
+      "userId": 22,
+      "title": "Tanker dispatched",
+      "message": "Booking #4 has been assigned a tanker and driver.",
+      "link": "../customer/booking-details.html?id=4",
+      "read": false,
+      "createdAt": "2026-11-12T06:33:37.482Z",
+      "id": 6
+    },
+    {
+      "userId": 6,
+      "title": "New trip assigned",
+      "message": "Trip for booking #4.",
+      "link": "../driver/trip-details.html?id=8",
+      "read": false,
+      "createdAt": "2026-11-12T06:33:38.078Z",
+      "id": 7
+    },
+    {
+      "userId": 22,
+      "title": "Tanker delivered",
+      "message": "Booking #4 is now delivered.",
+      "link": "../customer/booking-details.html?id=4",
+      "read": false,
+      "createdAt": "2026-11-12T06:33:54.389Z",
+      "id": 8
+    },
+    {
+      "userId": 16,
+      "title": "Tanker dispatched",
+      "message": "Booking #5 has been assigned a tanker and driver.",
+      "link": "../customer/booking-details.html?id=5",
+      "read": false,
+      "createdAt": "2026-11-12T07:37:15.245Z",
+      "id": 9
+    },
+    {
+      "userId": 6,
+      "title": "New trip assigned",
+      "message": "Trip for booking #5.",
+      "link": "../driver/trip-details.html?id=9",
+      "read": false,
+      "createdAt": "2026-11-12T07:37:15.828Z",
+      "id": 10
+    },
+    {
+      "userId": 22,
+      "title": "Tanker dispatched",
+      "message": "Booking #25 has been assigned a tanker and driver.",
+      "link": "../customer/booking-details.html?id=25",
+      "read": false,
+      "createdAt": "2026-11-12T07:38:15.162Z",
+      "id": 11
+    },
+    {
+      "userId": 22,
+      "title": "Tanker dispatched",
+      "message": "Booking #25 has been assigned a tanker and driver.",
+      "link": "../customer/booking-details.html?id=25",
+      "read": false,
+      "createdAt": "2026-11-12T07:38:15.459Z",
+      "id": 12
+    },
+    {
+      "userId": 7,
+      "title": "New trip assigned",
+      "message": "Trip for booking #25.",
+      "link": "../driver/trip-details.html?id=10",
+      "read": false,
+      "createdAt": "2026-11-12T07:38:15.753Z",
+      "id": 13
+    },
+    {
+      "userId": 7,
+      "title": "New trip assigned",
+      "message": "Trip for booking #25.",
+      "link": "../driver/trip-details.html?id=11",
+      "read": false,
+      "createdAt": "2026-11-12T07:38:16.050Z",
+      "id": 14
+    },
+    {
+      "userId": 16,
+      "title": "Tanker delivered",
+      "message": "Booking #5 is now delivered.",
+      "link": "../customer/booking-details.html?id=5",
+      "read": false,
+      "createdAt": "2026-11-12T07:40:11.517Z",
+      "id": 15
+    }
+  ],
+  "rates": [
+    {
+      "id": 1,
+      "type": "commercial",
+      "capacityGallons": 1000,
+      "amountPKR": 3500
+    },
+    {
+      "id": 2,
+      "type": "commercial",
+      "capacityGallons": 3000,
+      "amountPKR": 8500
+    },
+    {
+      "id": 3,
+      "type": "commercial",
+      "capacityGallons": 6000,
+      "amountPKR": 15000
+    },
+    {
+      "id": 4,
+      "type": "subsidised",
+      "capacityGallons": 1000,
+      "amountPKR": 800
+    },
+    {
+      "id": 5,
+      "type": "subsidised",
+      "capacityGallons": 3000,
+      "amountPKR": 1800
+    },
+    {
+      "id": 6,
+      "type": "subsidised",
+      "capacityGallons": 6000,
+      "amountPKR": 3200
+    }
+  ],
+  "activityLogs": [
+    {
+      "id": 1,
+      "userId": 1,
+      "action": "system.seed",
+      "details": "Phase 1 mock dataset loaded",
+      "createdAt": "2026-10-31T19:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "userId": 16,
+      "action": "booking.create",
+      "details": "Booking #3 (commercial)",
+      "createdAt": "2026-11-11T03:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "userId": 4,
+      "action": "dispatch.create",
+      "details": "Dispatch #3 for booking #3",
+      "createdAt": "2026-11-12T02:40:00.000Z"
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "action": "booking.approve",
+      "details": "Booking #4 approved",
+      "createdAt": "2026-11-11T04:00:00.000Z"
+    },
+    {
+      "userId": 16,
+      "action": "login",
+      "details": "Ahmed Khan signed in as customer",
+      "createdAt": "2026-11-12T06:30:30.266Z",
+      "id": 5
+    },
+    {
+      "userId": 16,
+      "action": "login",
+      "details": "Ahmed Khan signed in as customer",
+      "createdAt": "2026-11-12T06:32:59.710Z",
+      "id": 6
+    },
+    {
+      "userId": 16,
+      "action": "login",
+      "details": "Ahmed Khan signed in as customer",
+      "createdAt": "2026-11-12T06:33:03.143Z",
+      "id": 7
+    },
+    {
+      "userId": 16,
+      "action": "login",
+      "details": "Ahmed Khan signed in as customer",
+      "createdAt": "2026-11-12T06:33:07.216Z",
+      "id": 8
+    },
+    {
+      "userId": 16,
+      "action": "booking.confirm",
+      "details": "Booking #3 confirmed",
+      "createdAt": "2026-11-12T06:33:25.764Z",
+      "id": 9
+    },
+    {
+      "userId": 4,
+      "action": "login",
+      "details": "Imtiaz Hydrant signed in as hydrant_operator",
+      "createdAt": "2026-11-12T06:33:33.329Z",
+      "id": 10
+    },
+    {
+      "userId": 4,
+      "action": "dispatch.create",
+      "details": "Dispatch #8 for booking #4",
+      "createdAt": "2026-11-12T06:33:38.376Z",
+      "id": 11
+    },
+    {
+      "userId": 4,
+      "action": "filling.start",
+      "details": "Dispatch #8",
+      "createdAt": "2026-11-12T06:33:46.124Z",
+      "id": 12
+    },
+    {
+      "userId": 4,
+      "action": "filling.complete",
+      "details": "Dispatch #8 filled 3000",
+      "createdAt": "2026-11-12T06:33:48.201Z",
+      "id": 13
+    },
+    {
+      "userId": 4,
+      "action": "dispatch.depart",
+      "details": "Dispatch #8",
+      "createdAt": "2026-11-12T06:33:49.674Z",
+      "id": 14
+    },
+    {
+      "userId": 6,
+      "action": "login",
+      "details": "Ali Raza signed in as driver",
+      "createdAt": "2026-11-12T06:33:50.253Z",
+      "id": 15
+    },
+    {
+      "userId": 6,
+      "action": "trip.update",
+      "details": "Trip #8 → arrived",
+      "createdAt": "2026-11-12T06:33:51.739Z",
+      "id": 16
+    },
+    {
+      "userId": 6,
+      "action": "trip.update",
+      "details": "Trip #8 → delivered",
+      "createdAt": "2026-11-12T06:33:54.688Z",
+      "id": 17
+    },
+    {
+      "userId": 1,
+      "action": "login",
+      "details": "Director Water Ops signed in as administrator",
+      "createdAt": "2026-11-12T06:34:00.514Z",
+      "id": 18
+    },
+    {
+      "userId": 4,
+      "action": "login",
+      "details": "Imtiaz Hydrant signed in as hydrant_operator",
+      "createdAt": "2026-11-12T06:34:11.829Z",
+      "id": 19
+    },
+    {
+      "userId": 2,
+      "action": "login",
+      "details": "Saima Zahid signed in as zone_officer",
+      "createdAt": "2026-11-12T06:34:21.407Z",
+      "id": 20
+    },
+    {
+      "userId": 2,
+      "action": "login",
+      "details": "Saima Zahid signed in as zone_officer",
+      "createdAt": "2026-11-12T06:34:21.407Z",
+      "id": 21
+    },
+    {
+      "userId": 1,
+      "action": "login",
+      "details": "Director Water Ops signed in as administrator",
+      "createdAt": "2026-11-12T06:36:05.140Z",
+      "id": 22
+    },
+    {
+      "userId": 16,
+      "action": "login",
+      "details": "Ahmed Khan signed in as customer",
+      "createdAt": "2026-11-12T06:53:16.708Z",
+      "id": 23
+    },
+    {
+      "userId": 2,
+      "action": "login",
+      "details": "Saima Zahid signed in as zone_officer",
+      "createdAt": "2026-11-12T06:53:27.416Z",
+      "id": 24
+    },
+    {
+      "userId": 16,
+      "action": "login",
+      "details": "Ahmed Khan signed in as customer",
+      "createdAt": "2026-11-12T07:33:49.603Z",
+      "id": 25
+    },
+    {
+      "userId": 16,
+      "action": "logout",
+      "details": "Ahmed Khan signed out",
+      "createdAt": "2026-11-12T07:34:41.320Z",
+      "id": 26
+    },
+    {
+      "userId": 16,
+      "action": "login",
+      "details": "Ahmed Khan signed in as customer",
+      "createdAt": "2026-11-12T07:35:05.180Z",
+      "id": 27
+    },
+    {
+      "userId": 16,
+      "action": "booking.create",
+      "details": "Booking #26 (commercial)",
+      "createdAt": "2026-11-12T07:35:51.062Z",
+      "id": 28
+    },
+    {
+      "userId": 16,
+      "action": "logout",
+      "details": "Ahmed Khan signed out",
+      "createdAt": "2026-11-12T07:36:18.181Z",
+      "id": 29
+    },
+    {
+      "userId": 1,
+      "action": "login",
+      "details": "Director Water Ops signed in as administrator",
+      "createdAt": "2026-11-12T07:36:23.047Z",
+      "id": 30
+    },
+    {
+      "userId": 1,
+      "action": "logout",
+      "details": "Director Water Ops signed out",
+      "createdAt": "2026-11-12T07:36:50.126Z",
+      "id": 31
+    },
+    {
+      "userId": 4,
+      "action": "login",
+      "details": "Imtiaz Hydrant signed in as hydrant_operator",
+      "createdAt": "2026-11-12T07:36:57.458Z",
+      "id": 32
+    },
+    {
+      "userId": 4,
+      "action": "dispatch.create",
+      "details": "Dispatch #9 for booking #5",
+      "createdAt": "2026-11-12T07:37:16.129Z",
+      "id": 33
+    },
+    {
+      "userId": 4,
+      "action": "filling.start",
+      "details": "Dispatch #9",
+      "createdAt": "2026-11-12T07:37:20.466Z",
+      "id": 34
+    },
+    {
+      "userId": 4,
+      "action": "dispatch.create",
+      "details": "Dispatch #10 for booking #25",
+      "createdAt": "2026-11-12T07:38:16.049Z",
+      "id": 35
+    },
+    {
+      "userId": 4,
+      "action": "filling.start",
+      "details": "Dispatch #10",
+      "createdAt": "2026-11-12T07:38:21.548Z",
+      "id": 36
+    },
+    {
+      "userId": 4,
+      "action": "filling.complete",
+      "details": "Dispatch #10 filled 3000",
+      "createdAt": "2026-11-12T07:38:29.072Z",
+      "id": 37
+    },
+    {
+      "userId": 4,
+      "action": "dispatch.depart",
+      "details": "Dispatch #10",
+      "createdAt": "2026-11-12T07:38:33.060Z",
+      "id": 38
+    },
+    {
+      "userId": 4,
+      "action": "filling.start",
+      "details": "Dispatch #11",
+      "createdAt": "2026-11-12T07:38:42.238Z",
+      "id": 39
+    },
+    {
+      "userId": 4,
+      "action": "logout",
+      "details": "Imtiaz Hydrant signed out",
+      "createdAt": "2026-11-12T07:39:00.339Z",
+      "id": 40
+    },
+    {
+      "userId": 6,
+      "action": "login",
+      "details": "Ali Raza signed in as driver",
+      "createdAt": "2026-11-12T07:39:54.725Z",
+      "id": 41
+    },
+    {
+      "userId": 6,
+      "action": "trip.update",
+      "details": "Trip #9 → arrived",
+      "createdAt": "2026-11-12T07:40:03.116Z",
+      "id": 42
+    },
+    {
+      "userId": 6,
+      "action": "trip.update",
+      "details": "Trip #9 → delivered",
+      "createdAt": "2026-11-12T07:40:11.813Z",
+      "id": 43
+    },
+    {
+      "userId": 6,
+      "action": "logout",
+      "details": "Ali Raza signed out",
+      "createdAt": "2026-11-12T07:47:42.711Z",
+      "id": 44
+    },
+    {
+      "userId": 16,
+      "action": "login",
+      "details": "Ahmed Khan signed in as customer",
+      "createdAt": "2026-11-12T07:47:56.963Z",
+      "id": 45
+    },
+    {
+      "userId": 16,
+      "action": "logout",
+      "details": "Ahmed Khan signed out",
+      "createdAt": "2026-11-12T07:48:56.782Z",
+      "id": 46
+    },
+    {
+      "userId": 2,
+      "action": "login",
+      "details": "Saima Zahid signed in as zone_officer",
+      "createdAt": "2026-11-12T07:49:06.175Z",
+      "id": 47
+    },
+    {
+      "userId": 2,
+      "action": "logout",
+      "details": "Saima Zahid signed out",
+      "createdAt": "2026-11-12T07:49:18.389Z",
+      "id": 48
+    },
+    {
+      "userId": 4,
+      "action": "login",
+      "details": "Imtiaz Hydrant signed in as hydrant_operator",
+      "createdAt": "2026-11-12T07:49:49.065Z",
+      "id": 49
+    },
+    {
+      "userId": 4,
+      "action": "login",
+      "details": "Imtiaz Hydrant signed in as hydrant_operator",
+      "createdAt": "2026-11-12T07:49:52.538Z",
+      "id": 50
+    },
+    {
+      "userId": 6,
+      "action": "login",
+      "details": "Ali Raza signed in as driver",
+      "createdAt": "2026-11-12T07:50:08.201Z",
+      "id": 51
+    },
+    {
+      "userId": 1,
+      "action": "login",
+      "details": "Director Water Ops signed in as administrator",
+      "createdAt": "2026-11-12T07:50:46.858Z",
+      "id": 52
+    },
+    {
+      "userId": 1,
+      "action": "logout",
+      "details": "Director Water Ops signed out",
+      "createdAt": "2026-11-12T07:59:11.454Z",
+      "id": 53
+    },
+    {
+      "userId": 16,
+      "action": "login",
+      "details": "Ahmed Khan signed in as customer",
+      "createdAt": "2026-11-12T08:02:37.211Z",
+      "id": 54
+    },
+    {
+      "userId": 16,
+      "action": "logout",
+      "details": "Ahmed Khan signed out",
+      "createdAt": "2026-11-12T08:07:56.739Z",
+      "id": 55
+    },
+    {
+      "userId": 16,
+      "action": "login",
+      "details": "Ahmed Khan signed in as customer",
+      "createdAt": "2026-11-12T08:24:05.951Z",
+      "id": 56
+    },
+    {
+      "userId": 16,
+      "action": "logout",
+      "details": "Ahmed Khan signed out",
+      "createdAt": "2026-11-12T08:24:11.511Z",
+      "id": 57
+    },
+    {
+      "userId": 16,
+      "action": "login",
+      "details": "Ahmed Khan signed in as customer",
+      "createdAt": "2026-11-12T08:24:18.564Z",
+      "id": 58
+    },
+    {
+      "userId": 16,
+      "action": "logout",
+      "details": "Ahmed Khan signed out",
+      "createdAt": "2026-11-12T08:24:24.698Z",
+      "id": 59
+    },
+    {
+      "userId": 16,
+      "action": "login",
+      "details": "Ahmed Khan signed in as customer",
+      "createdAt": "2026-11-12T08:34:02.058Z",
+      "id": 60
+    },
+    {
+      "userId": 2,
+      "action": "login",
+      "details": "Saima Zahid signed in as zone_officer",
+      "createdAt": "2026-11-12T08:34:40.482Z",
+      "id": 61
+    },
+    {
+      "userId": 4,
+      "action": "login",
+      "details": "Imtiaz Hydrant signed in as hydrant_operator",
+      "createdAt": "2026-11-12T08:35:01.987Z",
+      "id": 62
+    },
+    {
+      "userId": 6,
+      "action": "login",
+      "details": "Ali Raza signed in as driver",
+      "createdAt": "2026-11-12T08:35:23.849Z",
+      "id": 63
+    },
+    {
+      "userId": 4,
+      "action": "login",
+      "details": "Imtiaz Hydrant signed in as hydrant_operator",
+      "createdAt": "2026-11-12T08:36:03.474Z",
+      "id": 64
+    },
+    {
+      "userId": 16,
+      "action": "login",
+      "details": "Ahmed Khan signed in as customer",
+      "createdAt": "2026-11-13T07:29:37.977Z",
+      "id": 65
+    },
+    {
+      "userId": 16,
+      "action": "logout",
+      "details": "Ahmed Khan signed out",
+      "createdAt": "2026-11-13T07:30:13.856Z",
+      "id": 66
+    },
+    {
+      "userId": 16,
+      "action": "login",
+      "details": "Ahmed Khan signed in as customer",
+      "createdAt": "2026-11-13T07:30:43.113Z",
+      "id": 67
+    },
+    {
+      "userId": 16,
+      "action": "login",
+      "details": "Ahmed Khan signed in as customer",
+      "createdAt": "2026-11-16T12:52:16.400Z",
+      "id": 68
+    },
+    {
+      "userId": 16,
+      "action": "login",
+      "details": "Ahmed Khan signed in as customer",
+      "createdAt": "2026-11-16T12:52:16.745Z",
+      "id": 69
+    },
+    {
+      "userId": 16,
+      "action": "login",
+      "details": "Ahmed Khan signed in as customer",
+      "createdAt": "2026-11-16T12:54:54.950Z",
+      "id": 70
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "paanilink",
+  "version": "1.0.0",
+  "description": "PaaniLink – Water Tanker Booking and Dispatch System (Phase 1 Frontend)",
+  "private": true,
+  "scripts": {
+    "start": "npm run api",
+    "api": "json-server --watch mock-api/db.json --port 3000 --delay 250",
+    "web": "npx --yes http-server -p 5500 -c-1 --cors",
+    "dev": "npx --yes concurrently \"npm run api\" \"npm run web\""
+  },
+  "devDependencies": {
+    "json-server": "^0.17.4",
+    "concurrently": "^9.1.2"
+  }
+}

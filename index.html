@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PaaniLink | Karachi Water Board tanker booking</title>
+  <link rel="icon" href="assets/images/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img src="assets/images/logo.svg" alt="">
+      <div>
+        <strong>PaaniLink</strong>
+        <small>Karachi Water Board</small>
+      </div>
+    </a>
+    <nav class="site-nav" aria-label="Site">
+      <a class="hide-sm" href="index.html">Home</a>
+      <a class="hide-sm" href="#services">Services</a>
+      <a class="hide-sm" href="track.html">Track</a>
+      <a class="hide-sm" href="#contact">Contact</a>
+      <a class="btn-signin" href="login.html" data-nav="signin">Sign in</a>
+      <span data-nav-session hidden></span>
+      <a class="btn btn-primary" href="login.html?next=customer/book-tanker.html" data-nav="book">Book a tanker</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="service-tiles" aria-label="Quick services">
+      <a class="service-tile" href="login.html?next=customer/book-tanker.html" data-nav="book">
+        <i class="fa-solid fa-truck-droplet" aria-hidden="true"></i>
+        Book Tanker
+      </a>
+      <a class="service-tile" href="track.html">
+        <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+        Track Booking
+      </a>
+      <a class="service-tile" href="login.html?next=customer/bills.html">
+        <i class="fa-solid fa-file-invoice" aria-hidden="true"></i>
+        Get Your Bill
+      </a>
+      <a class="service-tile" href="login.html?next=customer/subsidy.html">
+        <i class="fa-solid fa-hand-holding-droplet" aria-hidden="true"></i>
+        Subsidy
+      </a>
+      <a class="service-tile" href="register.html">
+        <i class="fa-solid fa-user-plus" aria-hidden="true"></i>
+        Register
+      </a>
+    </div>
+    <div class="hero-glass">
+      <h1>Reliable water tanker services, made easier.</h1>
+      <p class="lead">Book water deliveries, manage your requests, and follow your tanker through every stage of service.</p>
+      <div class="hero-actions">
+        <a class="btn btn-accent" href="login.html?next=customer/book-tanker.html" data-nav="book">Book a tanker</a>
+        <a class="btn btn-hero-outline" href="track.html">Track a booking</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="container">
+      <p class="section-kicker">Services</p>
+      <h2>Tanker booking on the Water Board network</h2>
+      <p class="section-intro">PaaniLink is the hydrant tanker desk: request water, schedule a slot, and keep one status from the hydrant to your address.</p>
+      <div class="grid-4">
+        <article class="info-card">
+          <i class="fa-solid fa-building" aria-hidden="true"></i>
+          <h3>Commercial delivery</h3>
+          <p>Households and businesses book 1,000, 3,000 or 6,000 gallon tankers at the published rate. No officer approval.</p>
+        </article>
+        <article class="info-card">
+          <i class="fa-solid fa-hand-holding-droplet" aria-hidden="true"></i>
+          <h3>Subsidised delivery</h3>
+          <p>Verified households, hospitals and mosques pay the subsidised rate. Each request is reviewed by the zone officer.</p>
+        </article>
+        <article class="info-card">
+          <i class="fa-solid fa-people-group" aria-hidden="true"></i>
+          <h3>Group request</h3>
+          <p>One form for several neighbouring addresses or an institution, each with its own tanker size on the same date.</p>
+        </article>
+        <article class="info-card">
+          <i class="fa-solid fa-route" aria-hidden="true"></i>
+          <h3>Track delivery</h3>
+          <p>Use your PL reference to see filling, dispatch and delivery without signing in.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-band" id="how">
+    <div class="container">
+      <p class="section-kicker">How it works</p>
+      <h2>How a booking is handled</h2>
+      <ol class="how-steps">
+        <li><span>1</span><div>You choose a hydrant in your zone, a tanker size, and a delivery date within operating hours.</div></li>
+        <li><span>2</span><div>Commercial requests go to the hydrant desk. Subsidised requests wait for the zone officer.</div></li>
+        <li><span>3</span><div>The hydrant operator assigns a tanker and driver, records filling against the daily quota, then departure.</div></li>
+        <li><span>4</span><div>The driver marks arrival and delivery. You confirm the drop or open a dispute.</div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="sizes">
+    <div class="container">
+      <p class="section-kicker">Fleet</p>
+      <h2>Tanker capacities</h2>
+      <table class="muted-table">
+        <thead>
+          <tr><th>Capacity</th><th>Typical use</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1,000 gallons</td><td>Small household top-up</td></tr>
+          <tr><td>3,000 gallons</td><td>Standard household or shop</td></tr>
+          <tr><td>6,000 gallons</td><td>Institution or bulk fill</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section section-band" id="areas">
+    <div class="container">
+      <p class="section-kicker">Coverage</p>
+      <h2>Service zones</h2>
+      <p class="section-intro">Only active zones accept bookings. Addresses are matched to a zone when you register.</p>
+      <div id="area-list"><p>Loading zones…</p></div>
+    </div>
+  </section>
+
+  <section class="section" id="faq">
+    <div class="container">
+      <p class="section-kicker">Help</p>
+      <h2>Questions</h2>
+      <div class="faq">
+        <details>
+          <summary>How do I book?</summary>
+          <p>Sign in or register, then choose hydrant, capacity and a delivery slot. The charge is shown before you submit.</p>
+        </details>
+        <details>
+          <summary>When can I cancel?</summary>
+          <p>You can cancel until a tanker is assigned. After dispatch, contact the zone office from the booking record.</p>
+        </details>
+        <details>
+          <summary>How do I report a short fill or no-show?</summary>
+          <p>When the driver marks delivered, open the booking and choose Report / dispute. The zone officer records the outcome.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="contact">
+    <div class="footer-grid">
+      <div>
+        <strong>Karachi Water Board</strong>
+        <p>Tanker booking desk — hydrant dispatch for registered customers.</p>
+      </div>
+      <div>
+        <h3>Get in touch</h3>
+        <p>9th Mile Karsaz, Shahrah-e-Faisal, Karachi</p>
+        <p>021-9920-6105</p>
+        <p>08:00–18:00, Sunday–Thursday</p>
+      </div>
+      <div>
+        <h3>This site</h3>
+        <p><a href="login.html">Sign in</a></p>
+        <p><a href="register.html">Register</a></p>
+        <p><a href="track.html">Track a booking</a></p>
+      </div>
+    </div>
+    <small>PaaniLink · Karachi Water Board tanker booking</small>
+  </footer>
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/auth.js"></script>
+  <script>
+    PLAuth.bindPublicNav();
+    (async function () {
+      const box = document.getElementById("area-list");
+      try {
+        const zones = await PLApi.get("zones", { status: "active" });
+        box.innerHTML = `<table class="muted-table"><thead><tr><th>Zone</th><th>Code</th></tr></thead><tbody>${zones
+          .map((z) => `<tr><td>${z.name}</td><td>${z.code || ""}</td></tr>`)
+          .join("")}</tbody></table>`;
+      } catch (err) {
+        box.innerHTML = '<p class="notice">Zones could not be loaded. Try again shortly.</p>';
+      }
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="PaaniLink">
+  <rect width="64" height="64" rx="32" fill="#0B2156"/>
+  <path d="M32 14c7.5 11 13 18.5 13 26a13 13 0 1 1-26 0c0-7.5 5.5-15 13-26z" fill="#3EC9E8"/>
+  <path d="M32 22c5 8 9 13.5 9 18a9 9 0 1 1-18 0c0-4.5 4-10 9-18z" fill="#FFFFFF" opacity=".22"/>
+</svg>

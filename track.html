@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Track a booking | PaaniLink</title>
+  <link rel="icon" href="assets/images/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/dashboard.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body class="public-body" data-page="track">
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img src="assets/images/logo.svg" alt="">
+      <div>
+        <strong>PaaniLink</strong>
+        <small>Karachi Water Board</small>
+      </div>
+    </a>
+    <nav class="site-nav" aria-label="Site">
+      <a class="hide-sm" href="index.html">Home</a>
+      <a href="track.html">Track booking</a>
+      <a class="btn-signin" href="login.html" data-nav="signin">Sign in</a>
+      <span data-nav-session hidden></span>
+      <a class="btn btn-primary" href="login.html?next=customer/book-tanker.html" data-nav="book">Book a tanker</a>
+    </nav>
+  </header>
+
+  <section class="section">
+    <div class="container page-narrow">
+      <h1>Track a booking</h1>
+      <p>Enter the reference printed on your confirmation (PL followed by the booking number).</p>
+      <form class="panel" id="track-form" novalidate>
+        <label class="field">
+          <span>Booking reference</span>
+          <input class="input" name="reference" placeholder="PL-0003" autocomplete="off">
+        </label>
+        <button class="btn btn-primary" type="submit">View status</button>
+      </form>
+      <div id="track-result" class="track-result"></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <small><a href="index.html">Home</a> · <a href="login.html">Sign in</a> · Desk 021-9920-6105</small>
+  </footer>
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/utilities.js"></script>
+  <script src="assets/js/validation.js"></script>
+  <script src="assets/js/auth.js"></script>
+  <script src="assets/js/permissions.js"></script>
+  <script src="assets/js/services.js"></script>
+  <script src="assets/js/components.js"></script>
+  <script src="assets/js/pages/public.js"></script>
+</body>
+</html>

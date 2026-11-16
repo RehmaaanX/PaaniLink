@@ -1,0 +1,11 @@
+{
+  "name": "paanilink-mock-api",
+  "version": "1.0.0",
+  "description": "JSON Server mock REST API for PaaniLink Phase 1",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3000 --delay 250"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.4"
+  }
+}

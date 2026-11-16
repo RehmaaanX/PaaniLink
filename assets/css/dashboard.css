@@ -1,0 +1,305 @@
+.app-shell {
+  display: grid;
+  grid-template-columns: var(--sidebar) 1fr;
+  min-height: 100vh;
+}
+
+.app-shell.collapsed {
+  grid-template-columns: 72px 1fr;
+}
+
+.sidebar {
+  background: var(--navy);
+  color: #d5e0e8;
+  padding: 14px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.sidebar .brand {
+  color: #fff;
+  padding: 4px 6px 10px;
+}
+
+.sidebar .brand small {
+  color: #9eb3c3;
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+  overflow: auto;
+}
+
+.sidebar nav a {
+  color: #d5e0e8;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: 4px;
+  font-weight: 550;
+  font-size: 0.86rem;
+  text-decoration: none;
+}
+
+.sidebar nav a:hover,
+.sidebar nav a.active {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+}
+
+.sidebar .logout {
+  background: transparent;
+  color: #fff;
+  justify-content: flex-start;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.app-shell.collapsed .sidebar span,
+.app-shell.collapsed .brand div {
+  display: none;
+}
+
+.main-col {
+  min-width: 0;
+}
+
+.topbar {
+  height: var(--topbar);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 16px;
+  background: #fff;
+  border-bottom: 1px solid var(--line);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.topbar-title {
+  flex: 1;
+  min-width: 0;
+}
+
+.topbar-title h1 {
+  font-size: 0.95rem;
+  margin: 0;
+  font-weight: 650;
+}
+
+.topbar-title p {
+  margin: 0;
+  font-size: 0.76rem;
+}
+
+.topbar-search {
+  margin-left: auto;
+  position: relative;
+  width: min(280px, 32vw);
+}
+
+.topbar-search input {
+  padding-left: 30px;
+}
+
+.topbar-search i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.icon-btn {
+  border: 1px solid var(--line);
+  background: #fff;
+  width: 34px;
+  height: 34px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  color: var(--navy);
+  display: grid;
+  place-items: center;
+  text-decoration: none;
+}
+
+.icon-btn .dot {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background: var(--danger);
+  color: #fff;
+  font-size: 9px;
+  min-width: 14px;
+  height: 14px;
+  border-radius: 99px;
+  display: grid;
+  place-items: center;
+}
+
+.profile-chip {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--water);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  font-size: 0.72rem;
+}
+
+.page-content {
+  padding: 16px 18px 28px;
+}
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.stat-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 8px 10px;
+}
+
+.stat-card p {
+  margin: 0;
+  font-size: 0.75rem;
+}
+
+.stat-card strong {
+  font-size: 1.05rem;
+  color: var(--navy);
+}
+
+.stat-card i {
+  display: none;
+}
+
+.page-toolbar {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+  align-items: center;
+}
+
+.panel {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+}
+
+.panel h3 {
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+
+.split {
+  display: grid;
+  grid-template-columns: 1.45fr 0.85fr;
+  gap: 14px;
+}
+
+.driver-actions {
+  display: grid;
+  gap: 8px;
+}
+
+.driver-actions .btn {
+  min-height: 48px;
+  font-size: 1rem;
+}
+
+.trip-status {
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 4px;
+  background: #e7f1f6;
+  color: #1b5370;
+  text-align: center;
+}
+
+.nav-backdrop {
+  display: none;
+}
+
+/* Customer: compact account bar */
+.customer-shell {
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  align-items: stretch;
+}
+
+.customer-shell .sidebar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  height: auto;
+  min-height: 52px;
+  max-height: none;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 8px 16px;
+  gap: 16px;
+}
+
+.customer-shell .sidebar nav {
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: visible;
+}
+
+.customer-shell .sidebar .logout {
+  margin-left: 0;
+}
+
+.customer-shell .topbar-search {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .customer-shell #menu-btn {
+    display: none;
+  }
+}
+
+/* Driver: compact chrome */
+.driver-shell .topbar-search,
+.driver-shell .icon-btn[href="#notifications"] {
+  display: none;
+}
+
+.driver-shell .page-content {
+  padding: 12px;
+}
+
+.current-booking {
+  border-left: 3px solid var(--water);
+}
